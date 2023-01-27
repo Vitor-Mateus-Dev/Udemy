@@ -1,0 +1,43 @@
+text formatting:
+<br> para pular a linha;
+<hr> para linha no site;
+<h1,2,3,4> </h1,2,3,4> para titulos;
+<p></p> para paragrafos;
+<a href> para links;
+<img src=""> para imagens;
+
+-------------------------------------
+
+Para Tabelas se usa: 
+<Table>
+  <tr>
+    <th>ttitulo</th>
+    <td>texto</td>
+    <td>texto2</td>
+   </tr>
+   <tr>
+     <td>textoabaixo</td>;
+
+pode usar <td colspan=""> para o texto ocupar "" colunas horizontalmente;
+pode usar <td rowspan=""> para o texto ocupar "" colunas verticalmente;
+
+-------------------------------------
+
+para forms se usa:
+<form> </form>
+para colocar o texto do botão usa <input type "buttom" value"texto">;
+para colocar uma caixa com varias opções para o usuario escolher uma usa:
+<select>
+ <option>opção 1</option>
+  <option>opção 2</option>
+</select>;
+para fazer caixa marcavel usa  <input type="checkbox" />texto<br/>
+para colocar para marcar entre duas opções usa
+ <input type="radio" name="mesmonome" value="A" />opçãoA<br/>
+ <input type="radio" name="mesmonome" value="B" />opçãoB
+
+ -------------------------------------
+
+ entidades html https://www.w3schools.com/html/html_entities.asp
+ emotes html https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+
