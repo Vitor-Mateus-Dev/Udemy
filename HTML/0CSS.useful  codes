@@ -1,2 +1,27 @@
+-------------------------------------------------------------------------------------------------------------------------------------
+
+sites uteis:
+Fontes:https://www.w3schools.com/cssref/css_websafe_fonts.php
+cores:https://htmlcolorcodes.com/
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 Div e Span:Span é inline, um na frente do outro -e- a div é block, um a baixo do outro
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+tipos de bordas: https://www.w3schools.com/css/css_border.asp
+dá para usar bordas assim: 
+border{
+    border-color: red green yellow blue; (vai ser a de cima, direita,baixo,esquerda)
+    border-widht: 15px 10px; (cima baixo e direita esquerda)
+    border-style:solid;
+    ou
+    border: 15px solid white;
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Font-family define a formatação dos textos do site, é bom usar 3 especificos e um generico (seguros)
+
 -------------------------------------------------------------------------------------------------------------------------------------
