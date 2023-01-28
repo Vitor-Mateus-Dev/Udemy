@@ -6,7 +6,7 @@ text formatting:
 <a href> para links;
 <img src=""> para imagens;
 
--------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Para Tabelas se usa: 
 <Table>
@@ -21,7 +21,7 @@ Para Tabelas se usa:
 pode usar <td colspan=""> para o texto ocupar "" colunas horizontalmente;
 pode usar <td rowspan=""> para o texto ocupar "" colunas verticalmente;
 
--------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 
 para forms se usa:
 <form> </form>
@@ -36,7 +36,7 @@ para colocar para marcar entre duas opções usa
  <input type="radio" name="mesmonome" value="A" />opçãoA<br/>
  <input type="radio" name="mesmonome" value="B" />opçãoB
 
- -------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 
  entidades html https://www.w3schools.com/html/html_entities.asp
  emotes html https://www.w3schools.com/charsets/ref_emoji_smileys.asp
