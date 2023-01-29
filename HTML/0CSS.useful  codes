@@ -29,3 +29,5 @@ Font-family define a formatação dos textos do site, é bom usar 3 especificos 
 font-size: 1em; (em é baseado no tamanho do bloco)
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+text-decoration: formatação na frase como line-through,underline ou overline
