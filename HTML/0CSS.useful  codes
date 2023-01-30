@@ -31,3 +31,12 @@ font-size: 1em; (em é baseado no tamanho do bloco)
 -------------------------------------------------------------------------------------------------------------------------------------
 
 text-decoration: formatação na frase como line-through,underline ou overline
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+background:
+background-position: center center; (pode escolher onde a img vai ficar )
+background-attachment:[fixed,scroll];(coloca a imagem fixa mesmo se escrolar a pag)
+background-repeat: [no-repeat,repeat-x,repeat-z]; (a imagem não repete ou so repete na horizonal ou vertical)
+
+-------------------------------------------------------------------------------------------------------------------------------------

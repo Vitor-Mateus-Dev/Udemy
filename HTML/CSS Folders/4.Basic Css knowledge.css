@@ -1,5 +1,47 @@
-.conteudo{
-   
-
-   font: bold 40px "Lucida Sans Unicode","Lucida Grande",sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+body {
+  background-image: url(/HTML/images/basic\ knowlegn\ test\ CSS/fundo.png);
+}
+header {
+  justify-content: space-between;
+  width: 900px;
+}
+ol {
+  list-style-type: none;
+  display: flex;
+  color: black;
+  background-color: #d4d3be;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: #666b6f;
+  margin: 0 5px;
+  font-weight: 900;
+  font-size: 20px;
+}
+main {
+  width: 895px;
+  margin: 10px;
+  background-color: white;
+}
+h3 {
+  color: #8a887b;
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+}
+div {
+}
+.direitos {
+  text-align: center;
+  width: 903px;
+}
+.barra{
+   font-size: 25px;
 }
