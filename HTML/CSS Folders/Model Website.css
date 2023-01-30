@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Arial;
+  
 }
 body {
   background-image: url(/HTML/images/basic\ knowlegn\ test\ CSS/fundo.png);
@@ -27,7 +28,8 @@ a {
 main {
   width: 895px;
   margin: 10px;
-  background-color: white;
+  background-color: white; 
+  padding: 15px;
 }
 h3 {
   color: #8a887b;
@@ -42,4 +44,10 @@ p {
 }
 .barra{
    font-size: 25px;
+}
+.imgs{
+  border: solid 8px #d1cfb8;
+}
+#contato{
+  font-size: 15px;
 }

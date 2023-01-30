@@ -40,3 +40,15 @@ background-attachment:[fixed,scroll];(coloca a imagem fixa mesmo se escrolar a p
 background-repeat: [no-repeat,repeat-x,repeat-z]; (a imagem não repete ou so repete na horizonal ou vertical)
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+Da pra usar linhas para ver ate onde os elementos chegam:
+border: 12px solid red;
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+float faz conteudo "flutuar" sobre outros: float:[left,right];
+clear faz o proximo conteudo ou o anterior(onde esta o clear) não seguir o float: clear;[left,right,both,none]
+se quiser usar imagens atras de conteudos floats, é so criar uma div em branco apos os floats e colocar o clear no css
+
+-----------------------------------------------------------------------------------------------------------------------------
+
