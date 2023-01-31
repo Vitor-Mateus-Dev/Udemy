@@ -1,0 +1,117 @@
+/*Estilização padrão*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #e6e6e6;
+}
+/*Cabeçalho*/
+header {
+  background-color: #ffc300;
+  height: 200px;
+  text-align: center;
+}
+header h1 {
+  font-size: 100px;
+  display: inline;
+}
+.tec {
+  color: #504a48;
+}
+.blog {
+  color: white;
+}
+.tech1 {
+  padding: 10px;
+}
+.links {
+  padding: 5px;
+  justify-content: space-between;
+}
+header a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 900;
+}
+a:link,
+:visited {
+  color: #fff8c9;
+}
+a:hover,
+:active {
+  background-color: #fff8c9;
+  color: #ffc300;
+}
+/*Conteudo principal*/
+main div {
+  position: relative;
+  top: -100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: 150px;
+  width: 920px;
+}
+div h2 {
+  padding: 0 0 0 200px;
+}
+main div p {
+  padding: 0 0 0 200px;
+}
+main div img {
+  height: 500px;
+  padding: 30px 0px 0px 200px;
+}
+/*Conteudo lateral*/
+.lateral {
+  width: 300px;
+  height: 700px;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+  bottom: 0px;
+  left: 1150px;
+  padding: 0px;
+}
+.lateral h2 {
+  color: #5e5f69;
+  background-color: #d9d7db;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.lateral div {
+  position: absolute;
+  top: 250px;
+  width: 300px;
+}
+.lateral a {
+  text-decoration: none;
+  color: #fcc360;
+  font-size: 18px;
+}
+/*Conteudo fixo*/
+.fixo {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  background-color: #5b5b5d;
+}
+.fixo h5 {
+  color: yellow;
+  font-size: 22px;
+}
+.fixo p {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+.strong a {
+  font-weight: 540;
+  font-size: 20px;
+}

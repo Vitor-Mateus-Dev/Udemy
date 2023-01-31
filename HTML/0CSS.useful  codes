@@ -57,3 +57,23 @@ Comando display:inline faz um ficar na frente do outro, display:block um a baixo
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+Position static,relative,absolute e fixed:
+o position:static é o padrão, por bloco
+o position:relative; top:0px; right:0px; bottom:0px; left:0px; seleciona onde o elemento vai ficar
+o position:absloute; top:0px; right:0px; bottom:0px; left:0px; baseado no container que está ou no body e ignora os 
+outros elementos
+o position:fixed; top:0px; right:0px; bottom:0px; left:0px; ele fica fixo na tela mesmo com scroll e ignora os outros 
+elementos
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Sobreposição de elementos usa o: z-index:(valor numerico) quanto maior o numero mais a frente ele vai ficar
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Formatação de links, a:link{} para links não visitados, a:visite{} para links visitados, a:hover{} para quando passar o mouse
+sobre o link, a:active{} para links quando clicka, a ordem importa, é esta ordem: não visitados,visitados,passar mouse,click
+da pra colocar background padding e text-decoration none etc
+
+-----------------------------------------------------------------------------------------------------------------------------
+
