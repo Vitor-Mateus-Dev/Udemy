@@ -115,3 +115,10 @@ main div img {
   font-weight: 540;
   font-size: 20px;
 }
+/*Rodapé*/
+footer{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
