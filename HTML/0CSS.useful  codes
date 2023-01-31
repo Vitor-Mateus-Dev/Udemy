@@ -52,3 +52,8 @@ se quiser usar imagens atras de conteudos floats, é so criar uma div em branco 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+Comando display:inline faz um ficar na frente do outro, display:block um a baixo e display:inline-block um na frente ate onde
+ couber na mesma linha depois vai para a linha de baixo.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
