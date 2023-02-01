@@ -38,12 +38,12 @@ header a {
   margin: 10px;
   font-weight: 900;
 }
-a:link,
-:visited {
+header a:link,
+a:visited {
   color: #fff8c9;
 }
-a:hover,
-:active {
+header a:hover,
+a:active {
   background-color: #fff8c9;
   color: #ffc300;
 }
@@ -59,6 +59,7 @@ main div {
 }
 div h2 {
   padding: 0 0 0 200px;
+  color: #ffc300;
 }
 main div p {
   padding: 0 0 0 200px;
@@ -81,9 +82,12 @@ main div img {
 .lateral h2 {
   color: #5e5f69;
   background-color: #d9d7db;
-  padding: 5px;
+  padding: 10px;
   font-weight: 900;
   font-size: 25px;
+}
+.lateral p {
+  padding: 10px;
 }
 .lateral div {
   position: absolute;
@@ -94,6 +98,7 @@ main div img {
   text-decoration: none;
   color: #fcc360;
   font-size: 18px;
+  padding: 10px;
 }
 /*Conteudo fixo*/
 .fixo {
@@ -116,9 +121,9 @@ main div img {
   font-size: 20px;
 }
 /*Rodapé*/
-footer{
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    bottom: 20px;
+footer {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
 }
