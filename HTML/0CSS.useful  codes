@@ -77,3 +77,14 @@ da pra colocar background padding e text-decoration none etc
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+Seletores css, + irmão proximo e ~irmão geral, ex: h1+p{}(pega somente o irmão se estiver na linha seguinte) e h1~p{}(pega todos brothers nas
+linhas seguinte)
+> aplica aos seletores filhos dentro do pai ex: div>p{}(pega todos os p dentro da div)
+da para juntar eles com classes, ex: div.classeX{}(vai editar a div com essa classe)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Heranças, pode usar o !important para priorizar aquele seletor caso tenha dois iguais, caso tenha dois iguais o css sempre usara
+o ultimo
+
+-----------------------------------------------------------------------------------------------------------------------------
