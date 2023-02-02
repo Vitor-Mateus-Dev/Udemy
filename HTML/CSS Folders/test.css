@@ -1,31 +1,68 @@
-ul{
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+  background: #f2f2f2;
+}
+#container {
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 720px;
+  max-width: 1280px;
+}
+#marca {
+  width: 100%;
+  height: 100px;
+  background: #9e9e9e;
+  text-align: center;
+  line-height: 100px;
+}
+#conteudo {
+  width: 75%;
+  float: right;
+}
+#conteudo-principal{
+  width: 64%;
+  float: left;
+}
+#conteudo-secundario{
+  width: 33%;
+float: right;
+background: #d1d1d1;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#navegacao {
+  width: 23%;
+  float: left;
+  padding: 20px 0;
+  background: #d1d1d1;
+}
+#navegacao ul {
   list-style-type: none;
+  padding: 0;
 }
-ul a{
-  width: 200px;
+#navegacao ul li {
   height: 40px;
-  display:block;
-  color: #000;
+  background: #ff8c32;
+  text-align: center;
+}
+#navegacao ul li a {
   text-decoration: none;
-  text-indent: 40px;
-  line-height: 40px;
-  background: #f7b600 url(/HTML/images/menu\ inline/menu.png) no-repeat left bottom;
+  color: white;
+  display: block;
+  padding: 0.7em;
 }
-a:hover, a.selecionado {
-  background-position: right bottom;
-  background-color: #f99200;
-  color: #fff;
-  border: 0.5px solid black;
+#navegacao ul li a:hover{
+  color: brown;
+  background: #ffb100;
 }
-#home #nav-bar-lateral .Home,
-#sobre #nav-bar-lateral .Sobre,
-#serviços #nav-bar-lateral .Serviços,
-#noticias #nav-bar-lateral .Noticias,
-#contato #nav-bar-lateral .Contato{
-  background-position: right bottom;
-  background-color: #f99200;
-  color: #fff;
-  border: 0.5px solid black;
+#rodape {
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
 }

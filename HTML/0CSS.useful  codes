@@ -88,3 +88,14 @@ Heranças, pode usar o !important para priorizar aquele seletor caso tenha dois 
 o ultimo
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+para destacar nav bar com cor diferente na pagina que o usuario está da nav bar dá para colocar um id no body da pag e classes nas opções e 
+usar esse comando sendo o primeiro id o do body, o segundo o da nav e a classe é nas opções:
+#home #nav-bar-lateral .Home,
+#sobre #nav-bar-lateral .Sobre,
+#serviços #nav-bar-lateral .Serviços,
+#noticias #nav-bar-lateral .Noticias,
+#contato #nav-bar-lateral .Contato{
+}
+
+-----------------------------------------------------------------------------------------------------------------------------
