@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(190, 190, 243);
+    font-family: 'Trebuchet MS', 'Helvetica', ' sans-serif';
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: gray;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-weight: 500;
+    width: 90% auto;
+  }
+  table td{
+    width: 100px;
+    height: 40px;
+    letter-spacing: 0.05em;
+  }
+  tr:hover{
+background-color: #c3e6e5;
+  }
+  .day {
+    font-weight: bold;
+    text-align: center;
+  }
+  .title {
+    font-weight: bold;
+  }

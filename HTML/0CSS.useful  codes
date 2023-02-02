@@ -99,3 +99,21 @@ usar esse comando sendo o primeiro id o do body, o segundo o da nav e a classe �
 }
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+overflow:hiden; esconde o que passa do container que está, bom para imgs
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+<fieldset></fieldset> usa no forms para agrupar conteudos semelhantes
+da pra usar <fieldset><legend>exemplo</legend></fieldset> legend é para nomear aquele espaço;
+usa label em cima do input ex:
+<label for "nome">Exemplo:</label>
+<input type="text" name="nome" id="nome">
+ou
+<label>
+<input type="text" name="nome" id="nome">
+</label>;
+no label da para alterar o cursor com: cursor:pointer;
+
+
+-----------------------------------------------------------------------------------------------------------------------------

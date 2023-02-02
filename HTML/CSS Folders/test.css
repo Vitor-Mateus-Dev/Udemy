@@ -1,68 +1,45 @@
-body {
-  font-family: "Trebuchet MS", "Helvetica", sans-serif;
-  background: #f2f2f2;
+body{
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background: #643d87 url(/HTML/images/aulas/forms/fundo.jpg) no-repeat top center;
 }
-#container {
-  width: 85%;
+#container{
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 10px;
   margin: 0 auto;
-  background: #fff;
-  min-width: 720px;
-  max-width: 1280px;
-}
-#marca {
-  width: 100%;
-  height: 100px;
-  background: #9e9e9e;
+  margin-top: 120px;
   text-align: center;
-  line-height: 100px;
 }
-#conteudo {
-  width: 75%;
-  float: right;
+#container img{
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
 }
-#conteudo-principal{
-  width: 64%;
-  float: left;
-}
-#conteudo-secundario{
-  width: 33%;
-float: right;
-background: #d1d1d1;
-}
-#conteudo-secundario h1,
-#conteudo-secundario h2,
-#conteudo-secundario h3,
-#conteudo-secundario p{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#navegacao {
-  width: 23%;
-  float: left;
-  padding: 20px 0;
-  background: #d1d1d1;
-}
-#navegacao ul {
-  list-style-type: none;
-  padding: 0;
-}
-#navegacao ul li {
+input{
   height: 40px;
-  background: #ff8c32;
-  text-align: center;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  border:none;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
-#navegacao ul li a {
-  text-decoration: none;
-  color: white;
-  display: block;
-  padding: 0.7em;
+input.email{
+  background-image: url(/HTML/images/aulas/forms/icone-usuario.png) ;
 }
-#navegacao ul li a:hover{
-  color: brown;
-  background: #ffb100;
+input.senha{
+  background-image: url(/HTML/images/aulas/forms/icone-cadeado.png) ;
 }
-#rodape {
-  clear: both;
-  background: #c4c4c4;
-  padding: 5px;
+input.submit{
+  color:#fff;
+  background-color: #f79300;
+  border: 2px solid #db7d00;
+  padding: 5px 20px;
+  height: 45px;
+  width: 90%;
+  background: linear-gradient(to bottom, #faa600, #f68a00);
 }
