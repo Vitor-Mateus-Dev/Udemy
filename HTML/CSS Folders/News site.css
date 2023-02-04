@@ -1,0 +1,83 @@
+* {
+  font-family: "Trebuchet MS", "Helvetica", " sans-serif";
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  background: url(/HTML/images/News\ site/fundo.png);
+  height: 220px;
+  max-width: 2060px;
+  min-width: 1380px;
+}
+header div {
+  background: url(/HTML/images/News\ site/detalhe-topo.png) no-repeat top right;
+  height: 100%;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header div img {
+  margin-top: 2%;
+}
+header div nav {
+  height: 40px;
+  bottom: -40px;
+  position: relative;
+}
+header div nav a {
+  background: #b20030;
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  display: inline;
+  justify-content: space-between;
+}
+header div nav a:hover {
+  background: #e10039;
+}
+main div#conteudo {
+  float:right;
+  margin: 20px 200px 20px 0px;
+  width: 800px;
+}
+div#conteudo div{
+    margin: 5px 0px 15px 0px;
+    align-items: center;
+    width: 394px;
+    height: 400px;
+    display: inline-block;
+    background: url(/HTML/images/News\ site/fundo-caixa.png);
+
+}
+div#conteudo div img{
+    width: 360px;
+    padding: 5px 5px 5px 17px;
+}
+div#conteudo div h2{
+    background: #294970;
+    color: white;
+}
+div#conteudo div h3{
+    background:#cf023a;
+    color: black;
+    padding: 0px 5px 0px 17px;
+    margin-left: 17px;
+    padding: 0;
+    display: inline;
+}
+div#conteudo div a{
+    padding: 0px 5px 0px 17px;
+    color: #8e2f4b;
+}
+div#conteudo div p{
+padding: 0px 5px 0px 17px;
+}
+div#conteudo div.direita h3{
+    color: white;
+    background: #b00032;
+    display: inline;
+    margin-left: 17px;
+    padding: 0;
+}
