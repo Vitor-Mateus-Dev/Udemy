@@ -13,7 +13,7 @@ header div {
   background: url(/HTML/images/News\ site/detalhe-topo.png) no-repeat top right;
   height: 100%;
   align-items: center;
-  width: 60%;
+  width: 60%px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -37,47 +37,166 @@ header div nav a {
 header div nav a:hover {
   background: #e10039;
 }
+/*Parte Principal *************************************/
 main div#conteudo {
-  float:right;
+  float: right;
   margin: 20px 200px 20px 0px;
   width: 800px;
 }
-div#conteudo div{
-    margin: 5px 0px 15px 0px;
-    align-items: center;
-    width: 394px;
-    height: 400px;
-    display: inline-block;
-    background: url(/HTML/images/News\ site/fundo-caixa.png);
+div#conteudo div {
+  margin: 5px 0px 15px 0px;
+  align-items: center;
+  width: 394px;
+  height: 400px;
+  display: inline-block;
+  background: url(/HTML/images/News\ site/fundo-caixa.png);
+}
+div#conteudo div img {
+  width: 360px;
+  padding: 5px 5px 5px 17px;
+}
+div#conteudo div h2 {
+  background: #294970;
+  color: white;
+}
+div#conteudo div h3 {
+  background: #cf023a;
+  color: black;
+  padding: 0px 5px 0px 17px;
+  margin-left: 17px;
+  padding: 0;
+  display: inline;
+}
+div#conteudo div a {
+  padding: 0px 5px 0px 17px;
+  color: #8e2f4b;
+}
+div#conteudo div p {
+  padding: 0px 5px 0px 17px;
+}
+div#conteudo div.direita h3 {
+  color: white;
+  background: #b00032;
+  display: inline;
+  margin-left: 17px;
+  padding: 0;
+}
+div#conteudo div.final {
+  position: relative;
+  top: 10px;
+  height: 20px;
+}
+div#conteudo div.final img {
+  height: 90px;
+  width: 120px;
+  float: left;
+}
+div#conteudo div.final h4 {
+  color: #294970;
+  font-weight: bold;
+}
+div#conteudo div.final p {
+  margin-top: 5px;
+}
+div#conteudo div.final hr {
+  margin-top: 40px;
+}
 
+/* Nóticias Recentes ********************************/
+div.final2 {
+  position: relative;
+  top: 10px;
+  bottom: -5px;
 }
-div#conteudo div img{
-    width: 360px;
-    padding: 5px 5px 5px 17px;
+div#conteudo div.final2 h2 {
+  margin-bottom: 5px;
 }
-div#conteudo div h2{
-    background: #294970;
-    color: white;
+div#conteudo div.final2 img {
+  height: 90px;
+  width: 120px;
+  float: left;
 }
-div#conteudo div h3{
-    background:#cf023a;
-    color: black;
-    padding: 0px 5px 0px 17px;
-    margin-left: 17px;
-    padding: 0;
-    display: inline;
+div#conteudo div.final2 p {
+  margin-top: 5px;
 }
-div#conteudo div a{
-    padding: 0px 5px 0px 17px;
-    color: #8e2f4b;
+div#conteudo div.final2 hr {
+  margin-top: 40px;
 }
-div#conteudo div p{
-padding: 0px 5px 0px 17px;
+div#conteudo div.final2 h4 {
+  color: #294970;
+  font-weight: bold;
 }
-div#conteudo div.direita h3{
-    color: white;
-    background: #b00032;
-    display: inline;
-    margin-left: 17px;
-    padding: 0;
+
+/*Parte Lateral Esquerda *************************************/
+div.lateral {
+  float: left;
+  position: absolute;
+  top: 240px;
+  left: 220px;
+  width: 200px;
+  background: url(/HTML/images/News\ site/fundo-caixa.png);
+}
+div.lateral h2 {
+  margin-bottom: 10px;
+  background: #294970;
+  color: white;
+}
+div.lateral p {
+  background: white;
+  padding: 12px 0px;
+}
+/*Parte News *************************************/
+div.lateral2 {
+  position: absolute; 
+  bottom: 1px;
+  left: 220px;
+  width: 200px;
+}
+div.lateral2 h2 {
+  background: #294970;
+  color: white;
+  margin-bottom: 10px;
+}
+div.lateral2 input.texto {
+  height: 25px;
+  border: gray 1px solid;
+}
+div.lateral2 input.botão {
+  text-align: center;
+  color: white;
+  background: #b20030;
+  width: 80px;
+  height: 25px;
+  padding: 1px;
+}
+
+/*Parte footer *************************************/
+footer {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  position: absolute;
+  bottom: -550px;
+  background-color: #294970;
+  color: white;
+}
+footer h3 {
+  position: absolute;
+  left: 213px;
+  top: 18px;
+}
+
+/*Parte fixada *************************************/
+div.fixo {
+  position: fixed;
+  right: 0px;
+  bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+div.fixo h3 {
+  color: yellow;
+}
+div.fixo p {
+  color: white;
 }
