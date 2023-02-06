@@ -3,200 +3,220 @@
   padding: 0px;
   margin: 0px;
 }
-header {
-  background: url(/HTML/images/News\ site/fundo.png);
-  height: 220px;
-  max-width: 2060px;
-  min-width: 1380px;
+body {
+  background: url(/HTML/images/News\ site/fundo.png) repeat-x;
 }
-header div {
-  background: url(/HTML/images/News\ site/detalhe-topo.png) no-repeat top right;
-  height: 100%;
-  align-items: center;
-  width: 60%px;
-  margin-left: 20%;
-  margin-right: 20%;
+/* Globais ****************************************/
+
+h1 {
+  width: 152px;
+  height: 66px;
+  background: url(/HTML/images/News\ site/logo.png) no-repeat center;
+  text-indent: -3000px;
 }
-header div img {
-  margin-top: 2%;
-}
-header div nav {
-  height: 40px;
-  bottom: -40px;
-  position: relative;
-}
-header div nav a {
-  background: #b20030;
-  font-size: 23px;
+a {
   text-decoration: none;
-  color: white;
-  padding: 12px;
-  display: inline;
-  justify-content: space-between;
-}
-header div nav a:hover {
-  background: #e10039;
-}
-/*Parte Principal *************************************/
-main div#conteudo {
-  float: right;
-  margin: 20px 200px 20px 0px;
-  width: 800px;
-}
-div#conteudo div {
-  margin: 5px 0px 15px 0px;
-  align-items: center;
-  width: 394px;
-  height: 400px;
-  display: inline-block;
-  background: url(/HTML/images/News\ site/fundo-caixa.png);
-}
-div#conteudo div img {
-  width: 360px;
-  padding: 5px 5px 5px 17px;
-}
-div#conteudo div h2 {
-  background: #294970;
-  color: white;
-}
-div#conteudo div h3 {
-  background: #cf023a;
   color: black;
-  padding: 0px 5px 0px 17px;
-  margin-left: 17px;
+}
+h2 {
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+ul {
+  list-style: none;
+  margin: 0;
   padding: 0;
-  display: inline;
+  text-decoration: none;
 }
-div#conteudo div a {
-  padding: 0px 5px 0px 17px;
-  color: #8e2f4b;
+input {
+  font-size: 0.9em;
+  background-color: #fff;
+  padding: 5px;
+  width: 125px;
+  margin: 3px 0;
 }
-div#conteudo div p {
-  padding: 0px 5px 0px 17px;
+label {
+  display: block;
+  cursor: pointer;
 }
-div#conteudo div.direita h3 {
-  color: white;
-  background: #b00032;
-  display: inline;
-  margin-left: 17px;
-  padding: 0;
-}
-div#conteudo div.final {
-  position: relative;
-  top: 10px;
-  height: 20px;
-}
-div#conteudo div.final img {
-  height: 90px;
-  width: 120px;
-  float: left;
-}
-div#conteudo div.final h4 {
-  color: #294970;
-  font-weight: bold;
-}
-div#conteudo div.final p {
-  margin-top: 5px;
-}
-div#conteudo div.final hr {
-  margin-top: 40px;
-}
-
-/* Nóticias Recentes ********************************/
-div.final2 {
-  position: relative;
-  top: 10px;
-  bottom: -5px;
-}
-div#conteudo div.final2 h2 {
-  margin-bottom: 5px;
-}
-div#conteudo div.final2 img {
-  height: 90px;
-  width: 120px;
-  float: left;
-}
-div#conteudo div.final2 p {
-  margin-top: 5px;
-}
-div#conteudo div.final2 hr {
-  margin-top: 40px;
-}
-div#conteudo div.final2 h4 {
-  color: #294970;
-  font-weight: bold;
-}
-
-/*Parte Lateral Esquerda *************************************/
-div.lateral {
-  float: left;
-  position: absolute;
-  top: 240px;
-  left: 220px;
-  width: 200px;
-  background: url(/HTML/images/News\ site/fundo-caixa.png);
-}
-div.lateral h2 {
-  margin-bottom: 10px;
-  background: #294970;
-  color: white;
-}
-div.lateral p {
-  background: white;
-  padding: 12px 0px;
-}
-/*Parte News *************************************/
-div.lateral2 {
-  position: absolute; 
-  bottom: 1px;
-  left: 220px;
-  width: 200px;
-}
-div.lateral2 h2 {
-  background: #294970;
-  color: white;
-  margin-bottom: 10px;
-}
-div.lateral2 input.texto {
-  height: 25px;
-  border: gray 1px solid;
-}
-div.lateral2 input.botão {
-  text-align: center;
-  color: white;
-  background: #b20030;
+input.submit {
   width: 80px;
-  height: 25px;
-  padding: 1px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+img {
+  border: 2px solid #dfdfdf;
+}
+.caixa {
+  margin: 10px 0;
+  padding: 5px 0 5px 0;
+  background: #f3f3f3 url(/HTML/images/News\ site/fundo-caixa.png);
+}
+.caixa-conteudo {
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+.destaque h3 {
+  background: #b10333;
+  color: #fff;
+}
+.entrevista h3 {
+  background: #de003e;
+}
+.um a,
+.dois a {
+  color: purple;
+  text-decoration: underline;
+}
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 62px;
+}
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
+#lista-noticias li a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+#lista-noticias li h3 {
+  font-size: 0.8em;
+  margin-bottom: 0;
+  color: #3e7ab9;
+  background: none;
+}
+#lista-noticias li p {
+  font-size: 0.6em;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+#lista-noticias li :hover {
+  background: #eee;
+  cursor: pointer;
+}
+/*inicio container****************************************/
+
+#container {
+  width: 750px;
+  margin: 0 auto;
 }
 
-/*Parte footer *************************************/
+/* Parte superior ****************************************/
+
+header {
+  height: 150px;
+  background: url(/HTML/images/News\ site/detalhe-topo.png) no-repeat right top;
+  padding-top: 25px;
+}
+
+header ul {
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+header li {
+  float: left;
+}
+header a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../imagens/divisor.png) no-repeat left center;
+}
+header a:hover {
+  color: #e50040;
+}
+body.home div#container a#home,
+body.brasil div#container a#brasil,
+body.internacional div#container a#internacional,
+body.economia div#container a#economia,
+body.saúde div#container a#saúde,
+body.ciência div#container a#ciência,
+body.fotos div#container a#fotos {
+  color: #fff;
+  background: #de003e;
+  cursor: text;
+}
+
+/*Fim Parte superior*********************************************/
+
+/*Inicio colunas*************************************************/
+div#coluna {
+  margin-top: 70px;
+  background: #f5f5f5;
+}
+#tres-colunas #coluna .um {
+  margin: 0 0 20px 195px;
+  width: 270px;
+  float: left;
+}
+#duas-colunas #coluna .um {
+  margin: 0 0 20px 195px;
+  width: 555px;
+  float: left;
+}
+#uma-colunas #coluna .um {
+  margin: 0 0 20px 0px;
+  width: 750px;
+  float: left;
+}
+div#coluna div.dois {
+  margin: 0 0 20px 15px;
+  width: 270px;
+  float: left;
+}
+div#coluna div.três {
+  margin: 0 0 20px -750px;
+  width: 180px;
+  float: left;
+}
+.caixa-conteudo ul li a {
+  padding: 3px 0;
+  font-size: 0.9em;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  border-bottom: 1px solid #f3f3f3;
+}
+ul.lateral li a:hover {
+  color: #a1a1a1;
+  padding-left: 20px;
+  background: #f9f9f9 url(/HTML/images/News\ site/marcador.png) no-repeat left
+    center;
+}
+
+/*Fim colunas****************************************************/
+
+/*Inicio rodapé**************************************************/
+
 footer {
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  padding: 30px;
-  position: absolute;
-  bottom: -550px;
-  background-color: #294970;
-  color: white;
+  background: #284c71;
+  padding: 20px;
 }
-footer h3 {
-  position: absolute;
-  left: 213px;
-  top: 18px;
+footer div {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+}
+.clear {
+  clear: both;
 }
 
-/*Parte fixada *************************************/
-div.fixo {
-  position: fixed;
-  right: 0px;
-  bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-div.fixo h3 {
-  color: yellow;
-}
-div.fixo p {
-  color: white;
-}
+/*Fim Rodapé******************************************/
