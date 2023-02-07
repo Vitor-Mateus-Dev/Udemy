@@ -9,10 +9,10 @@ body {
     "Lucida Sans Unicode", sans-serif;
   margin: 15px;
 }
-a{
+a {
   text-decoration: none;
 }
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,7 +26,8 @@ header {
 }
 /*Container-------------------------------------------------*/
 div#container {
-  background: #ede9cc url(/HTML/images/Chalé/bg-container.png) repeat-y top center;
+  background: #ede9cc url(/HTML/images/Chalé/bg-container.png) repeat-y top
+    center;
   margin: 0 auto;
   width: 1180px;
   min-width: 740px;
@@ -66,7 +67,7 @@ div#container {
   margin-right: 15px;
   padding-top: 15px;
 }
-#menu-locais{
+#menu-locais {
   border-bottom: 1px solid #b5ab56;
   border-top: 1px solid #b5ab56;
   padding-top: 5px;
@@ -75,11 +76,11 @@ div#container {
   color: #8b8448;
   font-weight: 900;
 }
-#menu-locais .locais{
-float: left;
-line-height: 2.1em;
+#menu-locais .locais {
+  float: left;
+  line-height: 2.1em;
 }
-a.reserva{
+a.reserva {
   text-transform: uppercase;
   background: #a29750;
   color: #fff5b0;
@@ -90,41 +91,66 @@ a.reserva{
 #menu {
   margin-top: 15px;
 }
-ul#navegacao{
+ul#navegacao {
   float: left;
-
 }
-ul#navegacao a{
+ul#navegacao a {
   text-transform: uppercase;
   font-size: 0.8em;
   padding: 5px;
   color: #6e672c;
   line-height: 30px;
 }
-ul#navegacao a:hover{
+ul#navegacao a:hover {
   background: #fdf6be;
 }
-img.depoimento{
+img.depoimento {
   width: 256px;
   height: 164px;
   position: absolute;
   top: 60px;
 }
 /* Conteudo site ----------------------------------------------*/
-#area-esquerdo{
+#area-esquerdo {
   float: left;
   width: 50%;
-  
+  padding: 15px 0;
+  background: url(/HTML/images/Chalé/bg-area-principal.png) top left repeat-x;
 }
-#area-direito{
+#area-direito {
   float: right;
   width: 50%;
-  
+  padding: 20px 0;
+  background: url(/HTML/images/Chalé/bg-area-lateral.png) top left repeat-x;
 }
-.conteudo{
+.conteudo {
   margin: 0 auto;
   width: 90%;
 }
-footer{
+footer {
   clear: both;
+  padding: 16px;
+  color: #7d7640;
+  background: #fff url(/HTML/images/Chalé/bg-rodape.png) repeat-x top;
+}
+/* Formatação de textos----------------------------------------*/
+h2{
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 5px 0;
+}
+p{
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+/* Area Direita-----------------------------------------------*/
+.conteudo ul li a img{
+float: left;
+padding: 5px;
+}
+.conteudo ul li a p{
+  color: black;
+}
+.conteudo ul :hover{
+  background: #fdf6be;
 }
