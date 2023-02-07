@@ -121,3 +121,8 @@ no label da para alterar o cursor com: cursor:pointer;
 Margin 0 auto; centraliza na tela 
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+para retirar texto da tela mas não do código html usa no css:
+text-indent: -9000px;
+
+-----------------------------------------------------------------------------------------------------------------------------
