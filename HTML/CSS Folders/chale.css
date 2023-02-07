@@ -1,3 +1,4 @@
+/*Configurações gerais---------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +12,10 @@ body {
 a{
   text-decoration: none;
 }
-div#container {
-  background: #ede9cc;
-  margin: 0 auto;
-  width: 1180px;
-  min-width: 740px;
-  max-width: 1180px;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 header {
   position: relative;
@@ -24,6 +23,14 @@ header {
   background: #dbcd87 url(/HTML/images/Chalé/logo.png) no-repeat left top;
   height: 15.4em;
   min-height: 250px;
+}
+/*Container-------------------------------------------------*/
+div#container {
+  background: #ede9cc url(/HTML/images/Chalé/bg-container.png) repeat-y top center;
+  margin: 0 auto;
+  width: 1180px;
+  min-width: 740px;
+  max-width: 1180px;
 }
 .left {
   z-index: 1;
@@ -78,4 +85,46 @@ a.reserva{
   color: #fff5b0;
   padding: 5px 10px;
   float: right;
+}
+/* Barra de navegação Vertical -----------------------------*/
+#menu {
+  margin-top: 15px;
+}
+ul#navegacao{
+  float: left;
+
+}
+ul#navegacao a{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+}
+ul#navegacao a:hover{
+  background: #fdf6be;
+}
+img.depoimento{
+  width: 256px;
+  height: 164px;
+  position: absolute;
+  top: 60px;
+}
+/* Conteudo site ----------------------------------------------*/
+#area-esquerdo{
+  float: left;
+  width: 50%;
+  
+}
+#area-direito{
+  float: right;
+  width: 50%;
+  
+}
+.conteudo{
+  margin: 0 auto;
+  width: 90%;
+}
+footer{
+  clear: both;
 }
