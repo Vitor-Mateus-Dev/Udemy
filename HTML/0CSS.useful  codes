@@ -126,3 +126,40 @@ para retirar texto da tela mas não do código html usa no css:
 text-indent: -9000px;
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+dafont.com tem fontes para usar, se for usar em projetos tem que
+consultar os direitos autorais
+
+use o converter woff para converter a fonte para a versão web
+como o transfonter.org
+use a versão woff, a 2 não é suportada ainda
+pelo style vc usa @font-face{
+    font-family:"nome da fonte para definir";
+    src:url("onde está a fonte");
+    }
+    util para ter fontes que o usuario não tenha, pois se tiver no
+    site com certeza vai estar la
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Normalize Css
+corrige problemas comuns e padroniza mesmo entre app diferentes
+como o internet explore,safari,google chrome etc...
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Border-radius:30px 30px 30px 30px;arredondamento de bordas
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+box-sizing:borer-box; faz que o paddin não seja a + no tamanho
+da caixa, mt util
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Prefixos de navegadore para o código:
+-webkit- / -moz-, exemplo de uso:
+div{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
