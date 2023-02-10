@@ -163,3 +163,49 @@ div{
 -webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
 }
+
+-----------------------------------------------------------------------------------------------------------------------------
+-Degrades e transparencia
+Use cores com backround: rgba(x,x,x,y);
+os x vão ser as cores e o y vai ser a opacidade, de 0 a 1.
+e
+com backround: linear-gradient(to [right,left,bottom,top], x, x);
+também pode ser usado em graus com:
+backround: linear-gradient(80deg, x, x);
+também pode ser usado
+backround: radial-gradient(x,x,x)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+-Sombras
+text-shadow: 0px 0px 0px 0px y;
+o primeiro é para baixo
+o segundo é para a direita
+o terceiro px significa borrão, o quão borrão vai ter
+o quarto px significa o espalhamento da sombra
+y pode ser color ou rgba (se usar transparencia fica legal ex:)
+se for em texto é igual acima
+se for em uma div é 
+box-shadow: 0px 0px 0px y;
+px positivo movimenta pra baixo e pra direita negativo o oposto.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+-Animação
+usa
+@keyframes "nome"{
+    from{}
+    to{}
+};
+para definir a animação ai ir onde quer colocar e inserir no ele-
+mento que quer colocar usa:
+ animation-name:"nome da animação";
+ animation-duration: 5s;
+ da pra usar delay também, no caso: animation-delay: 3s;
+ da pra usar o animation-iteration-count:x;quantas vezes acontece
+ da pra usar animation-direction:alternate;para mudar a direção
+ também da pra usar animation-direction:reverse; que inverte a 
+ animação
+ da pra usar tudo em uma linha so:
+ animation: (nome) (duração) (delay) (quantidades de execuç) (direction)
+ para usar o prefixo é so inserir depois do @
