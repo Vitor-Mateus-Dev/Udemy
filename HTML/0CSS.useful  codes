@@ -209,3 +209,8 @@ mento que quer colocar usa:
  da pra usar tudo em uma linha so:
  animation: (nome) (duração) (delay) (quantidades de execuç) (direction)
  para usar o prefixo é so inserir depois do @
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+-Transição
+transition: (propriedade, por exemplho widht ou height);
