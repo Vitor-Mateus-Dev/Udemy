@@ -214,3 +214,14 @@ mento que quer colocar usa:
 
 -Transição
 transition: (propriedade, por exemplho widht ou height);
+
+-----------------------------------------------------------------------------------------------------------------------------
+-Input
+usar a propriedade required para tornar item obrigatorio.
+usar autofocus para deixar um item focado.
+input number, pode usar min max e step, o step é para pular de 
+x em x.
+placeholder, usa para dar exemplo na caixa
+Range, da pra colocar min e max e value para o valor inicial
+Date
+color,
