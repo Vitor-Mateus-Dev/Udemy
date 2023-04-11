@@ -213,7 +213,7 @@ mento que quer colocar usa:
 -----------------------------------------------------------------------------------------------------------------------------
 
 -Transição
-transition: (propriedade, por exemplho widht ou height);
+transition: (propriedade, por exemplo widht ou height);
 
 -----------------------------------------------------------------------------------------------------------------------------
 -Input
@@ -225,3 +225,37 @@ placeholder, usa para dar exemplo na caixa
 Range, da pra colocar min e max e value para o valor inicial
 Date
 color,
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+-Tags html 5
+.Header (cabeçalho do site)
+.Nav (navegação do site)
+.Footer (parte final do site, rodapé)
+.Article (Conteudos independentes do site )
+.Section (Conteudos da página, relacionado ao site)
+.Aside (ao lado do conteudo principal)
+.Time (data e hora)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+-Flexbox, 
+novo
+ "display: flex; " faz os itens ficarem flex-itens ai pode utilizar "flex-directions:(x) ; sendo as opções row que é a padrão,
+row-reverse que faz o invertido do de cima, da pra usar o colum que faz ficarem em colunas um abaixo do outro e colum-reverse que é o mesmo do
+outro lado da tela do colum.
+"flex-wrap:(x);" faz os itens ficarem na mesma linha ou ir para a proxima sendo as opções nowrap define que os itens não irão quebrar dentro da 
+div, serão apertados mas não quebrados,a wrap deixa eles do mesmo tamanho e os que não couberem vão para a proxima linha, 
+e wrap-reverse faz o mesmo do ultimo ao contrario.
+"justify-content:(x)" faz os itens começarem de x posição dentro da div sendo as opções flex-start que é o padrão, o flex-end faz começar 
+da direita para esquerda, o center faz ficar centralizados, space-between faz eles se separarem em espaçamentos iguais, 
+space-around faz o espaçamento mas os itens dos cantos não ficam colados nas paredes
+"align-itens":(x); stretch faz preencher toda área de altura( faz ficar esticados),center faz eles centralizados na página, flex-start faz eles
+colarem na parte superior, flex-end faz eles ficarem colados na parte inferior, e o baseline faz ser baseado no que está escrito dentro do item.
+dá para usar "order:(x); para mudar a ordem que aparecem os ITENS na div
+"flex-grow:(x);" faz os itens itens ocuparem todos espaçamento disponivel, o padrão é 0, quanto maior o numero maior a prioridade de ocupar espaço
+"flex-shrink:(x);" o padrão é 1, faz os itens diminuirem em seu espaçamento disponivel
+"flex-basis:(X)" define o tamanho inicial do flex-itens antes da distribuição de espaços, auto mantem o que colocamos no widht e height do item,
+
+-----------------------------------------------------------------------------------------------------------------------------
+
