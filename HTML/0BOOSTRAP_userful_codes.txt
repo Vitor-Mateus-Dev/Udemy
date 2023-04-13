@@ -1,0 +1,42 @@
+<!---Display-->
+<h1 class="display-1"> vai do 1 ao 5 e faz os h1,h2,etc
+ ficarem diferentes
+ <!---páragrafo-->
+<p class="lead"> faz textos ficarem com formatação diferente
+<p class="text-monospace"> faz textos ficarem com escrita 
+de maquinas de escrever antigas
+<p class="font-weight-bold">Texto em negrito
+<p class="font-weight-normal"> faz o paragrafo ficar normal
+<p class="font-italic"> deixa italico
+<!--transoframção de textos-->
+<p class="text-uppercase">Letras maiusculas</p>
+<p class="text-lowercase">Letras Minusculas
+<p class="text-capitalize">Primeiras letras maiusculas 
+ <!--alinhamentos-->
+<p class="text-right">Direita
+<p class="text-left">Esquerda
+<p class="text-center">Centralizado
+     <!--Bloco de citação com rodapé-->
+     <blockquote class="blockquote">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          deleniti quae quasi iusto iste adipisci, maiores vero, quo recusandae
+          facilis, voluptatem veniam neque atque ratione voluptatum quos similique
+          ipsum dolor.
+        </p>
+        <footer class="blockquote-footer">por
+          <cite>Vitor Mateus</cite>
+        </footer>
+      </blockquote>
+<!--Truncate-->
+<p class="text-truncate"> faz o texto ficar com ... se não 
+couber totalmente
+<!--lista sem estilo-->
+<ul class="list-unstyled"> lista ordenada em linha da
+ direita pra esquerda
+    <!--lista inline-->
+    <ul class="list-inline">
+      <li class="list-inline-item">item1</li>
+      <li class="list-inline-item">item2</li>
+      <li class="list-inline-item">item3</li>
+    </ul>
