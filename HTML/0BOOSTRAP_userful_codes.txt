@@ -1,17 +1,20 @@
 <!---Display-->
 <h1 class="display-1"> vai do 1 ao 5 e faz os h1,h2,etc
- ficarem diferentes
+ ficarem diferentes.
+
  <!---páragrafo-->
 <p class="lead"> faz textos ficarem com formatação diferente
 <p class="text-monospace"> faz textos ficarem com escrita 
 de maquinas de escrever antigas
 <p class="font-weight-bold">Texto em negrito
 <p class="font-weight-normal"> faz o paragrafo ficar normal
-<p class="font-italic"> deixa italico
+<p class="font-italic"> deixa italico.
+
 <!--transoframção de textos-->
 <p class="text-uppercase">Letras maiusculas</p>
 <p class="text-lowercase">Letras Minusculas
 <p class="text-capitalize">Primeiras letras maiusculas 
+
  <!--alinhamentos-->
 <p class="text-right">Direita
 <p class="text-left">Esquerda
@@ -28,9 +31,11 @@ de maquinas de escrever antigas
           <cite>Vitor Mateus</cite>
         </footer>
       </blockquote>
+
 <!--Truncate-->
 <p class="text-truncate"> faz o texto ficar com ... se não 
 couber totalmente
+
 <!--lista sem estilo-->
 <ul class="list-unstyled"> lista ordenada em linha da
  direita pra esquerda
@@ -40,3 +45,87 @@ couber totalmente
       <li class="list-inline-item">item2</li>
       <li class="list-inline-item">item3</li>
     </ul>
+
+<!--Alinhamento responsivo-para tamanho de telas-->
+Alinhamento responsivo - text-<tela>-<alinhamento>
+tela: sm, md, lg, xl
+alinhamento: left, center, right
+telas: sm, md, lg, xl  que são:Small, Medium, Large, Extra Large
+<p class="text-sm-right">tela 
+<p class="text-md-right">tela
+<p class="text-lg-right">tela
+<p class="text-xl-center">tela
+
+<!-- Elemento Block para inline -->
+<h1 class="d-inline">Lorem ipsum dolor
+
+<!-- Elemento Inline para Block -->
+<span class="d-block">Lorem ipsum dolor 1
+
+<!-- Elemento Inline-Block -->
+<h3 class="d-inline-block">Lorem ipsum</h3>
+o inline block pode ter padding e margin, o inline sozinho não
+funciona.
+
+<!-- Elementos flutuantes -->
+<div class="float-left">Float Left</div>
+<div class="float-right">Float Right</div>
+<!-- clear both-->
+<div class="clearfix">
+
+<!-- Posicionamento fixo - top e bottom -->
+<h1 class="fixed-top">Título do conteúdo fixo</h1>
+<p class="fixed-bottom">Lorem ipsum dolor sit amet</p>
+
+<!-- Float responsivo - float-<tela>-<direcao>
+            tela: sm, md, lg, xl
+            alinhamento: left, right
+     -->
+    <div class="float-sm-right">tela &gt;= 576px * </div><!--Small-->
+    <div class="float-md-right">tela &gt;=  768px * </div><!--Medium-->
+    <div class="float-lg-right">tela &gt;= 992px * </div><!--Large-->
+    <div class="float-xl-right">tela &gt;= 1200px * </div><!--Extra Large-->
+
+
+ <!-- Colar no topo (sticky) -->"Cola" o conteudo no top da página
+ ele fica parado mas quando scrollar ele, ele fica na tela.
+<ul class="list-inline sticky-top">
+  <li class="list-inline-item">Item 1</li>
+  <li class="list-inline-item">Item 2</li>
+  <li class="list-inline-item">Item 3</li>
+</ul>
+
+<!-- Classes para formatação de textos -->
+    <h1 class=" text-primary">Texto primary</h1>
+    <h1 class="text-secondary">Texto secondary</h1>
+    <h1 class="text-success">Texto success</h1>
+    <h1 class="text-info">Texto info</h1>
+    <h1 class="text-warning">Texto warning</h1>
+    <h1 class="text-danger">Texto danger</h1>
+    <h1 class="text-light">Texto light</h1>
+    <h1 class="text-dark">Texto dark</h1>
+    <h1 class="text-white">Texto white</h1>
+    <h1 class="text-black-50">Texto black 50</h1>
+
+ <!-- Formatação de links -->
+    <a href="#" class="text-primary">Link primary</a><br>
+    <a href="#" class="text-secondary">Link secondary</a><br>
+    <a href="#" class="text-success">Link success</a><br>
+    <a href="#" class="text-info">Link info</a><br>
+    <a href="#" class="text-warning">Link warning</a><br>
+    <a href="#" class="text-danger">Link danger</a><br>
+    <a href="#" class="text-light">Link light</a><br>
+    <a href="#" class="text-dark">Link dark</a><br>
+    <a href="#" class="text-white">Link white</a><br>
+
+    <!-- Backgrounds -->
+    <div class="bg-primary">Background primary</div>
+    <div class="bg-secondary">Background secondary</div>
+    <div class="bg-success">Background success</div>
+    <div class="bg-info">Background info</div>
+    <div class="bg-warning">Background warning</div>
+    <div class="bg-danger">Background danger</div>
+    <div class="bg-light">Background light</div>
+    <div class="bg-dark">Background dark</div>
+    <div class="bg-white">Background white</div>
+    <div class="bg-transparent">Background transparent</div>
