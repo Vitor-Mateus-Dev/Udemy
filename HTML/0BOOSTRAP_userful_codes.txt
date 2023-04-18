@@ -129,3 +129,113 @@ funciona.
     <div class="bg-dark">Background dark</div>
     <div class="bg-white">Background white</div>
     <div class="bg-transparent">Background transparent</div>
+
+<!-- Aplicação de Margin
+mt -> Margin Top
+mb -> Margin Bottom
+ml -> Margin Left
+mr -> Margin Right
+mx -> Margin no eixo x (horizontal) esquerda/direita
+my -> Margin no eixo y (vertical) top/bottom
+m  -> Margin em todos os lados
+Valor a definir (0 até 5) distancia em REM 
+-->
+<h1 class="bg-success mt-0">Margin</h1>
+
+<!-- Aplicação de Padding
+ pt -> Padding Top
+ pb -> Padding Bottom
+ pl -> Padding Left
+ pr -> Padding Right
+ px -> Padding no eixo x (horizontal) esquerda/direita
+ py -> Padding no eixo y (vertical) top/bottom
+ p  -> Padding em todos os lados
+ Valor a definir (0 até 5)
+ -->
+ <h1 class="pt-5">Padding</h1>
+
+<!-- classes de largura -->
+    <div class="w-25 ">width 25%</div>
+    <div class="w-50">width 50%</div>
+    <div class="w-75y">width 75%</div>
+    <div class="w-100">width 100%</div>
+    <div class="w-auto">width auto</div>
+
+    <!-- classes de altura -->
+    <div style="height: 300px;border: 1px solid gray;">
+        <div class="h-25">height 25%</div>
+        <div class="h-50">height 50%</div>
+        <div class="h-75">height 75%</div>
+        <div class="h-100">height 100%</div>
+        <div class="h-auto">height auto</div>
+
+         <!-- Bordas
+    border        -> todas as bordas
+    border-top    -> borda superior
+    border-bottom -> borda inferior
+    border-right  -> bordar direita
+    border-left   -> borda esquerda
+    Cores de bordas
+    border-<cor>: primary, secondary, success, 
+        info, warning, danger, light, dark, white
+    -->
+<div class="bg-white mb-2 border border-primary">todas as bordas</div>
+  <div class="bg-white mb-2 border-top border-warning">borda superior</div>
+  <div class="bg-white mb-2 border-bottom border-dark">borda inferior</div>
+  <div class="bg-white mb-2 border-left border-secondary">borda direita</div>
+  <div class="bg-white mb-2 border-right">borda esquerda</div>
+
+  <!-- Border Radius 
+    opções: rounded, rounded-top, rounded-right, 
+            rounded-right, rounded-left, rounded-circle
+    -->
+<div class="rounded">rounded</div>
+<div class="rounded-top">rounded top</div>
+<div class="rounded-right">rounded bottom</div>
+<div class="rounded-circle">rounded right</div>
+
+  <!--Media queries (Links úteis) -->
+Tipos de mídias:
+all – todos os dispositivos
+aural – sintetizadores de voz
+braille – leitores de Braille
+embossed – impressoras de Braille
+handheld – dispositivos de mão. Por exemplo: celulares com telas pequenas.
+
+/*Small devices (landscape phones)*/
+@media (min-widht: 576px) {
+  body{ background-color:"red";}
+}
+/*Medium devices (tablets, 768px e superior)*/
+@media (min-widht: 768px) {body{ background-color:"red";}}
+/*Large devices (desktops, 992px e superior)*/
+@media (min-widht: 576px) {"formatação"}
+/*Extra large devices (large desktops, 1200px e superior)*/
+@media (min-widht: 576px) {"formatação"}
+podemos usar o min widht ou o max widht:
+/**************************/
+/* Extra small devices (portraint phones) */
+@media (max-width: 575px) {body{ background:"#870000";}}
+
+/* Small devices (Landscape Phones) */
+@media (max-width: 575px) {body{ background:"#8703210";}}
+
+/* Medium devices (Tablets) */
+@media (max-width: 575px) {body{ background:"#875870";}}
+
+/* Large devices (Desktops) */
+@media (max-width: 575px) {body{ background:"#872180";}}
+usando os dois:
+        @media () {}
+
+        /*Small devices (landscape phones, 576px e maiores)*/
+        @media (min-widht: 576px) and (max-widht: 767.98px) {}
+
+        /*Medium devices (tablets, 768px e maiores)*/
+        @media (min-widht: 768px) and (max-widht: 991.98px) {}
+
+        /*Large devices (desktops, 992px e maiores)*/
+        @media (min-widht: 992.px) and (max-widht: 1198px) {}
+
+        /*Extra large devices (large desktops, 1200px  e maiores)*/
+        @media (min
