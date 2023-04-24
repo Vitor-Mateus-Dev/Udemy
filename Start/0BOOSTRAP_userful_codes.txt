@@ -186,8 +186,7 @@ Valor a definir (0 até 5) distancia em REM
   <div class="bg-white mb-2 border-right">borda esquerda</div>
 
   <!-- Border Radius 
-    opções: rounded, rounded-top, rounded-right, 
-            rounded-right, rounded-left, rounded-circle
+    opções: rounded, rounded-top, rounded-right,rounded-right, rounded-left, rounded-circle
     -->
 <div class="rounded">rounded</div>
 <div class="rounded-top">rounded top</div>
@@ -209,22 +208,22 @@ handheld – dispositivos de mão. Por exemplo: celulares com telas pequenas.
 /*Medium devices (tablets, 768px e superior)*/
 @media (min-widht: 768px) {body{ background-color:"red";}}
 /*Large devices (desktops, 992px e superior)*/
-@media (min-widht: 576px) {"formatação"}
+@media (min-widht: 992px) {"formatação"}
 /*Extra large devices (large desktops, 1200px e superior)*/
-@media (min-widht: 576px) {"formatação"}
+@media (min-widht: 1200px) {"formatação"}
 podemos usar o min widht ou o max widht:
 /**************************/
 /* Extra small devices (portraint phones) */
 @media (max-width: 575px) {body{ background:"#870000";}}
 
 /* Small devices (Landscape Phones) */
-@media (max-width: 575px) {body{ background:"#8703210";}}
+@media (max-width: 767px) {body{ background:"#8703210";}}
 
 /* Medium devices (Tablets) */
-@media (max-width: 575px) {body{ background:"#875870";}}
+@media (max-width: 991px) {body{ background:"#875870";}}
 
 /* Large devices (Desktops) */
-@media (max-width: 575px) {body{ background:"#872180";}}
+@media (max-width: 1299px) {body{ background:"#872180";}}
 usando os dois:
         @media () {}
 
@@ -238,4 +237,73 @@ usando os dois:
         @media (min-widht: 992.px) and (max-widht: 1198px) {}
 
         /*Extra large devices (large desktops, 1200px  e maiores)*/
-        @media (min
+        @media (min-widht: 1200px)
+
+<!-- Botoes 
+formatação padrao: btn
+formatação específicas:
+btn-primary, btn-secondary, btn-success, btn-info,
+btn-warning, btn-danger, btn-light, btn-dark, btn-link
+-->
+<button class="btn btn-dark" type="button">Clique</button>
+<a class="btn btn-danger" href="#">Link</a>
+<a class="btn btn-info" href="#">Link</a>
+<!-- Botoes com contorno
+btn-outline-<formato>
+<button class="btn-outline-primary" type="button">Clique</button>
+<!-- Tamanhos de botões
+opções: btn-lg, btn-sm, btn-block
+<button class="btn-lg" type="button">Grande</button>
+<button class="btn-sm" type="button">Pequeno</button>
+<button class="btn-block" type="button">Bloco</button>
+<!-- Estados dos botões
+opções: active, disabled
+-->
+<!-- Grupos de botões - horizontal</h3>
+    <div class="btn-group">
+        <button class="" type="button">Esquerda</button>
+        <button class="" type="button">Centro</button>
+        <button class="" type="button">Direita</button>
+    </div>
+<!--Grupos de botões - vertical</h3>
+    <div class="btn-group-vertical">
+        <button class="" type="button">Topo</button>
+        <button class="" type="button">Meio</button>
+        <button class="" type="button">Fundo</button>
+    </div> 
+<!--Toolbar de botões
+<div class="btn-toolbar">
+        <div>
+           <button class="" type="button">1</button>
+           <button class="" type="button">2</button>
+           <button class="" type="button">3</button>
+        </div>
+        <div>
+            <button class="" type="button">4</button>
+            <button class="" type="button">5</button>
+        </div>
+    </div>
+<!--Botões dropdown
+<div class="dropdwon">
+<button class="dropdown-toggle" data-toogle="dropdown" type="button">
+    Clique
+</button>
+<div>
+    <a href="#" class="dropdown-item">Link 1</a>
+    <div class="dropdown-divider"><div>
+    <a href="#" class="dropdown-item"">Link 2</a>
+    <a href="#" class="dropdown-item"">Link 3</a>
+    </div>
+</div>
+<!-- Navegação  -->
+ Tipos de navegação:
+ nav-pills
+ nav-tabs
+opções de alinhamento: 
+ justify-content-center 
+ justify-content-end
+ flex-column
+<nav class="navbar"></nav>
+<ul class="navbar-nav"></ul>
+<li class="nav-item"></li>
+<a href="#" class="nav-link"></a>
